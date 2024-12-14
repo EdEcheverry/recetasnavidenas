@@ -1,12 +1,24 @@
-npm init -y
+BookStock 
 
-npm install express mongoose cors dotenv
+Este proyecto es una página web cuyo fin es ayudar a la hora de crear un inventario de manera rápida e intuitiva.  
 
-npm install -D nodemon eslint prettier eslint-config-prettier eslint-plugin-node eslint-plugin-import
+
+
+Instrucciones de creación: 
+
+Creamos una carpeta nueva en el escritorio.
+
+Abrimos esta carpeta en una terminal. 
+
+Utilizamos el comando npm init -y
+
+Luego utilizamos el comando npm install express mongoose cors dotenv
+
+Seguidamente utilizamos el comando npm install -D nodemon eslint prettier eslint-config-prettier eslint-plugin-node eslint-plugin-import
 
 git init
 
-npx create-gitignore node                (Cuando el código se sube a git queda público y lo que hace esto es evitar que cierta información sea accesible para la gente)
+npx create-gitignore node      (Cuando el código se sube a git queda público y lo que hace esto es evitar que cierta información sea accesible para la gente)
 
 npm install -D typescript ts-node @types/node @types/express @types/mongoose @types/cors nodemon eslint prettier eslint-config-prettier eslint-plugin-node eslint-plugin-import
 
@@ -16,7 +28,7 @@ Se modifica el tsconfig.json
 
 Se crea el archivo .env
 
-Se cre la carpeta src
+Se crea la carpeta src
 
 Dentro de src se crean los archivos server.ts y app.ts
 
